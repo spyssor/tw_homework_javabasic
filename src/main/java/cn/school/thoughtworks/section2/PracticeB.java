@@ -19,9 +19,9 @@ public class PracticeB {
             } else {
                 if (element.charAt(1) == '-' && element.length() == 3){
                     if (res.containsKey(element.charAt(0)+"")) {
-                        res.put(element.charAt(0)+"", res.get(element.charAt(0)+"") + Integer.parseInt(element.charAt(2)+""));
+                        res.put(element.charAt(0)+"", res.get(element.charAt(0)+"") + Integer.parseInt(element.substring(2)));
                     } else {
-                        res.put(element.charAt(0)+"", Integer.parseInt(element.charAt(2)+""));
+                        res.put(element.charAt(0)+"", Integer.parseInt(element.substring(2)));
                     }
                 }
             }
