@@ -17,7 +17,6 @@ public class PracticeC {
                 }
             }
         }
-
         return res;
     }
 }
